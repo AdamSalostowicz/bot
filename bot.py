@@ -39,10 +39,10 @@ def test():
     print("2. To decompose a program into several small subroutines.")
     print("3. To determine the execution time of a program.")
     print("4. To interrupt the execution of a program.")
-    answear = 0
-    while answear != 2:
-        answear = int(input())
-        if answear == 2:
+    answer = 0
+    while answer != 2:
+        answer = int(input())
+        if answer == 2:
             print("Completed, have a nice day!")
         else:
             print("Please, try again.")
